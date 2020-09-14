@@ -1,9 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-
-<%@ page session="false"%>
-
-<!DOCTYPE html>
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <title>글읽기</title>
@@ -64,9 +61,9 @@
 					<td>&nbsp;</td>
 				</tr>
 			</table>
-			<button type="submit" formaction="modify" formmethod="get">수정</button>
-			<button type="submit" formaction="remove" formmethod="post">삭제</button>
-			<button type="submit" formaction="listAll" formmethod="get">목록</button>
+			<button type="submit" formaction="boardModify" formmethod="get">수정</button>
+			<button type="submit" formaction="boardremove" formmethod="post">삭제</button>
+			<button type="submit" formaction="boardList" formmethod="get">목록</button>
 	</body>
 </form>
 </html>

@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/portfolio.css">
-<link rel="stylesheet" href="css/footer.css">
-<link rel="stylesheet" href="css/images.css">
-<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/portfolio.css">
+<link rel="stylesheet" href="../css/footer.css">
+<link rel="stylesheet" href="../css/images.css">
+<link rel="stylesheet" href="../css/font.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Portfolio</title>

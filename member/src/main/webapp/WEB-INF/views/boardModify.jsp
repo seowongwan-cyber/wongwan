@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>°Ô½ÃÆÇ</title>
+<title>ê²Œì‹œíŒ</title>
 </head>
 <form action="boardModify" method="post">
 	<body>
@@ -16,7 +16,7 @@
 			<table>
 				<tr>
 					<td>&nbsp;</td>
-					<td align="center">±Û¹øÈ£</td>
+					<td align="center">ê¸€ë²ˆí˜¸</td>
 					<td><input name="bno" value="${boardVO.bno}"
 						readonly="readonly" size="50" maxlength="100"></td>
 					<td>&nbsp;</td>
@@ -26,7 +26,7 @@
 				</tr>
 				<tr>
 					<td>&nbsp;</td>
-					<td align="center">Á¦¸ñ</td>
+					<td align="center">ì œëª©</td>
 					<td><input name="title" value="${boardVO.title}" size="50"
 						maxlength="50"></td>
 					<td>&nbsp;</td>
@@ -36,7 +36,7 @@
 				</tr>
 				<tr>
 					<td>&nbsp;</td>
-					<td align="center">ÀÛ¼ºÀÚ</td>
+					<td align="center">ì‘ì„±ì</td>
 					<td><input name="userid" value="${boardVO.userid}" size="50"
 						maxlength="50"></td>
 					<td>&nbsp;</td>
@@ -46,7 +46,7 @@
 				</tr>
 				<tr>
 					<td>&nbsp;</td>
-					<td align="center">³»¿ë</td>
+					<td align="center">ë‚´ìš©</td>
 					<td><textarea name="content" cols="50" rows="13">${boardVO.content}</textarea></td>
 					<td>&nbsp;</td>
 				</tr>
@@ -61,7 +61,7 @@
 					<td>&nbsp;</td>
 				</tr>
 			</table>
-			<button type="submit">¿Ï·á</button>
+			<button type="submit">ì™„ë£Œ</button>
 		</center>
 </form>
 </body>
