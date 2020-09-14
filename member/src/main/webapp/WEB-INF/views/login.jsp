@@ -13,7 +13,7 @@
 <title>Seo Won Gwan</title>
 </head>
 <body>
-	<nav>'
+	<nav>
 	
 		<ul class="nav-container">
 				<li class="nav-item"><a href="login">Seo Won Gwan</a></li>
