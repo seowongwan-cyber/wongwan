@@ -19,7 +19,7 @@
 				<li class="nav-item"><a href="portfolio">Portfolio</a></li>
 				<li class="nav-item"><a href="blog">Blog</a></li>
 				<li class="nav-item"><a href="food">Food</a></li>
-				<li class="nav-item"><a href="board">Board</a></li>
+				<li class="nav-item"><a href="boardList">Board</a></li>
 				<li class="nav-item"><a href="listAll">${member.username}님</a></li>
 		</ul>
 	</nav>
