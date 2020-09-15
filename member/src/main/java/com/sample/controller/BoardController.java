@@ -54,7 +54,8 @@ public class BoardController {
 		model.addAttribute(service.read(bno)); // read 서비스 호출
 	}
 
-	@RequestMapping(value = "/boardModify", method = RequestMethod.GET) // GET 방식으로
+	@RequestMapping(value = "/boardModify", method = RequestMethod.GET) // GET
+																		// 방식으로
 	// 페이지 호출
 	public void modifyGET(int bno, Model model) throws Exception {
 		model.addAttribute(service.read(bno)); // 수정을 위한 글읽기 서비스 호출
@@ -68,7 +69,7 @@ public class BoardController {
 	}
 
 	@RequestMapping(value = "/boardremove", method = RequestMethod.POST) // POST방식으로
-																	// 데이터 전송
+	// 데이터 전송
 	public String removePOST(@RequestParam("bno") int bno, RedirectAttributes rttr) throws Exception {
 		service.remove(bno); // 글삭제 서비스 호출
 		return "redirect:/boardList"; // 삭제가 완료된 후, 목록페이지로 리턴

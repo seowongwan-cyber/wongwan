@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="../css/font.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>January</title>
+<title>May</title>
 </head>
 <body>
 	<nav>
@@ -34,7 +34,9 @@
 				<br> <br>
 				<div class="May-img2">
 					<div class="darkness"></div>
-					<span draggable="false"></span><br>
+					<div class="font">
+						<span draggable="false">0930</span><br>
+					</div>
 				</div>
 			</div>
 		</div>
